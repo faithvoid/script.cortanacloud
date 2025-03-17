@@ -1,5 +1,5 @@
-# script.cortanacloud
-Cortana Cloud - Dropbox-based cloud save game synchronization for XBMC4Xbox.
+# Cortana Cloud
+Dropbox-based cloud save game synchronization for XBMC4Xbox.
 
 ## How to use:
 - Create a Dropbox account, go into the developer console, create a new app with a unique name (ideally with App Folder access), enable all write functions in Permissions, and generate an authorization token.
