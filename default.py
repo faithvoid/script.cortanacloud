@@ -8,10 +8,10 @@ import requests
 
 # Source folder on Xbox
 SOURCE_FOLDER = "E:/UDATA"
-# Paths to ID.txt containing Title ID mappings & dropbox.txt containing your Dropbox API auth token.
-ID_TXT_PATH = "special://skin/scripts/saves/id.txt"
+# Paths to ID.txt containing Title ID mappings & dropbox.txt containing your Dropbox API access token.
+ID_TXT_PATH = "Q:/scripts/Cortana Cloud/id.txt"
 TOKEN_PATH = xbmc.translatePath('special://home/userdata/profiles/{}/dropbox.txt'.format(xbmc.getInfoLabel('System.ProfileName')))
-TIMESTAMP_PATH = "special://skin/scripts/saves/timestamp.txt"
+ID_TXT_PATH = "Q:/scripts/Cortana Cloud/timestamp.txt"
 
 def load_token():
     """Loads Dropbox Access Token from token.txt."""
