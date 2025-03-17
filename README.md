@@ -18,3 +18,4 @@ Cortana Cloud - Dropbox-based cloud save game synchronization for XBMC4Xbox.
 - Add scheduled backups?
 - Implement proper progress bar for uploads.
 - Add warning if cloud save is older than local save or vice versa.
+- Incorporate some sort of savegame resigning feature for saves that aren't from the same console(?) (really unlikely because I am Not That Smart)
